@@ -56,9 +56,6 @@ def record_session(label, duration_min, session_type="work"):
 
 
 # ── Timer display ─────────────────────────────────────────────────────────────
-def clear_line():
-    print("\r" + " " * 60 + "\r", end="", flush=True)
-
 def countdown(minutes, label, color="green"):
     total = minutes * 60
     try:
